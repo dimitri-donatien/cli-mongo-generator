@@ -52,7 +52,7 @@ For more detailed information on commands, run `cli-mg --help`.
 ## Project Structure
 
 ```md
-auto-doc/
+cli-mg/
 ├─ bin/
 │ └─ index.js
 ├─ src/
