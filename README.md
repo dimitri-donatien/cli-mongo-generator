@@ -1,27 +1,53 @@
 # CLI
 
-My Node CLI is a tool for doing awesome things directly from your terminal.
+My App CLI is a command line application (CLI) for retrieving data from an API and inserting it into a MongoDB database.
+
+## Packages used
+
+[axios](https://www.npmjs.com/package/axios) - To make HTTP requests to the API.
+[chalk](https://www.npmjs.com/package/chalk) - To style messages in the console.
+[command](https://www.npmjs.com/package/commander) - To create command line applications.
+[dotenv](https://www.npmjs.com/package/dotenv) - To load environment variables from an .env file.
+[figlet](https://www.npmjs.com/package/figlet) - To generate ASCII text art.
+[inquirer](https://www.npmjs.com/package/inquirer) - To facilitate user interaction in the console.
+[mongodb](https://www.npmjs.com/package/mongodb) - The official driver for MongoDB.
+[ora](https://www.npmjs.com/package/ora) - To display a loading indicator in the console.
 
 ## Installation
 
 ```bash
-npm install -g auto-doc
+npm install -g cli-mg
+
+cli-mg start
 ```
+
+or
+
+```bash
+git clone https://github.com/dimitri-donatien/cli-mongo-generator.git
+
+cd cli-mongo-generator
+
+cli-mg start
+```
+
+The app will guide you through the process of fetching data from an API and inserting it into a MongoDB database.
 
 ## Usage
 
 To start using My Node CLI, run:
 
 ```bash
-auto-doc --help
+cli-mg --help
 ```
 
 ### Commands
 
-- `auto-doc -`: Greets you by your name.
-- `auto-doc option1`: Executes option 1.
+- `cli-mg start`
 
-For more detailed information on commands, run `auto-doc --help`.
+The app will guide you through the process of fetching data from an API and inserting it into a MongoDB database.
+
+For more detailed information on commands, run `cli-mg --help`.
 
 ## Project Structure
 
@@ -45,10 +71,12 @@ auto-doc/
 
 - **src/lib** — could be where your core functionality resides, especially if your CLI interacts with APIs or performs complex logic.
 
-## Contributing
+## 🙇 Author
 
-Contributions are welcome ...
+#### Dimitri Donatien
 
-## License
+- Github: [@DimitriDonatien](https://github.com/dimitri-donatien)
 
-This project is licensed ...
+## ➤ License
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
