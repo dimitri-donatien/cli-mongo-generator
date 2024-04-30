@@ -4,14 +4,14 @@ My App CLI is a command line application (CLI) for retrieving data from an API a
 
 ## Packages used
 
-[axios](https://www.npmjs.com/package/axios) - To make HTTP requests to the API.
-[chalk](https://www.npmjs.com/package/chalk) - To style messages in the console.
-[command](https://www.npmjs.com/package/commander) - To create command line applications.
-[dotenv](https://www.npmjs.com/package/dotenv) - To load environment variables from an .env file.
-[figlet](https://www.npmjs.com/package/figlet) - To generate ASCII text art.
-[inquirer](https://www.npmjs.com/package/inquirer) - To facilitate user interaction in the console.
-[mongodb](https://www.npmjs.com/package/mongodb) - The official driver for MongoDB.
-[ora](https://www.npmjs.com/package/ora) - To display a loading indicator in the console.
+- [axios](https://www.npmjs.com/package/axios) - To make HTTP requests to the API.
+- [chalk](https://www.npmjs.com/package/chalk) - To style messages in the console.
+- [command](https://www.npmjs.com/package/commander) - To create command line applications.
+- [dotenv](https://www.npmjs.com/package/dotenv) - To load environment variables from an .env file.
+- [figlet](https://www.npmjs.com/package/figlet) - To generate ASCII text art.
+- [inquirer](https://www.npmjs.com/package/inquirer) - To facilitate user interaction in the console.
+- [mongodb](https://www.npmjs.com/package/mongodb) - The official driver for MongoDB.
+- [ora](https://www.npmjs.com/package/ora) - To display a loading indicator in the console.
 
 ## Installation
 
